@@ -32,7 +32,7 @@ if st.button('생성 :fire:'):
     time.sleep(3)
     # st.write('hello')
     ## 2번 파일
-    client = OpenAI(api_key=st.secrets["API_KEY"])
+    client = OpenAI(api_key=st.secrets["api"]["API_KEY"])
 
     chat_completion = client.chat.completions.create(
         messages=[{
