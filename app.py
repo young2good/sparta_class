@@ -7,7 +7,7 @@ st.title("동물 이미지 찾아주기 😍")
 
 title = st.text_input("영어로 동물 이름을 입력해주세요", "Lion")
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = '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'
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
