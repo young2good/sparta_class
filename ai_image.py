@@ -1,7 +1,8 @@
 import os
 from openai import OpenAI
+import streamlit as st
 
-os.environ["OPENAI_API_KEY"] = "여기에 발급받은 API 키를 입력해 주세요"
+os.environ["OPENAI_API_KEY"] = st.secrets['API_KEY']
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
