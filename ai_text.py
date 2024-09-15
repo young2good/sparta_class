@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = "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"
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
