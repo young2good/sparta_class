@@ -22,7 +22,7 @@ if st.button('생성 :fire:'):
             messages=[
                 {
                     "role": "user",
-                    "content": "치킨",
+                    "content": keyword,
                 },
                 {
                     "role": "system",
